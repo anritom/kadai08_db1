@@ -10,7 +10,7 @@ $question = $_POST["question"];
 try {
   //Password:MAMP='root',XAMPP=''
   //$pdo = new PDO('mysql:dbname=megaphone11_gs_db;charset=utf8;host=***','***','***');//さくらサーバー
-  $pdo = new PDO('mysql:dbname=liveonce_php02;charset=utf8;host=mysql3102.db.sakura.ne.jp', 'liveonce', 'a4vsAry-s7nBkGk');//local
+  $pdo = new PDO('mysql:dbname=liveonce_php02;charset=utf8;host=mysql3102.db.sakura.ne.jp', 'liveonce', 'XXXXXX');//local
 } catch (PDOException $e) {
   exit('DB_CONECThogehoge:'.$e->getMessage());
 }
